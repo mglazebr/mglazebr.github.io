@@ -2,24 +2,28 @@
 h1{
     color: rgb(255,255,255);
     font-size: 3em;
-    margin: 1em 7em 1.5em 7em;
+    margin: 1em 5em 1.5em 5em;
      font-family: sans-serif;
     text-transform: uppercase;
 }
 h2{
-    color: white;
+    color: rgb(255,255,255);
 }
 h3{
-    color:white;
+    color:rgb(255,255,255);
     font-family: sans-serif;
     text-transform: uppercase;
     
 }
 h4{
-    color:lightgray;
+    color:rgb(211,211,211);
     font-size: 1em;
 }
 body{
     background-color: rgb(68,93,93);
 }
+<p>{
+    font-size: 1em;
+}
+   
 
