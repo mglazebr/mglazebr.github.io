@@ -1,1 +1,25 @@
 /* CSS DOCUMENT */
+h1{
+    color: rgb(255,255,255);
+    font-size: 3em;
+    margin: 1em 7em 1.5em 7em;
+     font-family: sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    color: white;
+}
+h3{
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+h4{
+    color:lightgray;
+    font-size: 1em;
+}
+body{
+    background-color: rgb(68,93,93);
+}
+
