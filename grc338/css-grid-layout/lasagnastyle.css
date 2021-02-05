@@ -1,0 +1,66 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. Feel free to keep it or delete it. */
+h1,h2,h2 li{
+    margin: 1em 0;
+}
+div.container{
+    max-width: 55em;
+    margin:0 auto;   
+}
+
+img {
+    width: 100%; /*Please leave this line.*/
+}
+figure{
+    display:grid;
+    grid-template-columns: 60% auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+h1{
+    Color:#aed1b9;
+    margin-left: 0em;
+    margin-right: 1em;
+}
+h2{
+ font-family: cursive;
+    margin-left: 0em;
+    margin-right: 1em;
+    color: rgb(255,255,255);
+    
+}
+h3{
+    color: #aed1b9;
+    text-transform:none;
+    font-family: cursive;
+    margin-top: 1em;
+    margin-bottom: .3em;
+    margin-left: .2em;
+    text-indent: 0em;
+}
+figcaption{
+    font-size: .9em;
+    color: rgb(255,255,255);
+    margin-left: .5em;
+    font-family: serif;
+}
+ul{
+    margin-left: 2em;
+    color: rgb(255,255,255);
+    line-height: 1.7em;
+    text-indent: 0em;
+}
+ol{
+    margin: 0em;
+    margin-left: 2em;
+    color: rgb(255,255,255);
+    line-height: 1.7em;
+}
+body{
+    background-color: rgb(139,0,0)
+}
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
