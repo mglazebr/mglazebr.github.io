@@ -1,0 +1,89 @@
+/*CSS DOCUMENT*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} 
+h1,h2,h2 li{
+    margin: 1em 0;
+}
+div.container{
+    max-width: 65em;
+    margin:0 auto;   
+}
+img {
+    width: 100%; 
+}
+
+h2{ 
+    font-family: futura-pt-bold, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+    margin-left: .5em;
+    margin right: 1em;
+    color: #2D5D34;
+    font-size: 1.7em;
+}
+
+h3{
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4em;
+    margin-left: 1em;
+    margin-bottom: .3em;
+    color: #342515;
+    margin-top: 1em;
+}
+h4{
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #2D5D34;
+    }
+
+ul{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7em;
+    margin-left: 2em;
+    color:#2D5D34;
+    margin-bottom: 1.5em;
+    
+    
+}
+li{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    }
+p{
+   font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    margin-left: 1em;
+     line-height: 1.7em; 
+    margin-bottom: 1em:
+}
+nav ul{
+    padding 0;}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 2em;
+    text-transform: uppercase;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: 700; 
+    }
+nav ul li a {
+    color: #2D5D34;
+        text-decoration: none;
+}
+nav ul li a:hover{
+    color: #D2E7D6;
+    
+}
+    
