@@ -164,27 +164,27 @@ ul {
     aside{
         grid-column: 2/3;
     }
-    div.container-gallery{
-        background-color: #fafafa;
+    div.gallery{
+    background-color: #fafafa;
     max-width: 60em;
     margin: 0 auto;
     padding: 1em;
     }
-    section.photogallery main{
+    section.gallery main{
         position: relative;
         overflow: hidden;
         padding-bottom: calc(72% +3em);
     }
     
-    section.photogallery figure{
-         margin: 0;
+    section.gallery figure{
+    margin: 0;
     width: calc(100%-2em);
     position: absolute;
     opacity: 0;
     transition: opacity .5s;
     }
     
-    section.photogallery figcaption{
+    section.gallery figcaption{
     font-size: 1.2em;
     font-weight: bold;
     margin: 1em 0;
@@ -203,10 +203,24 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(8),
     opacity: 1;
         
 }
-    section.photogallery nav{
+    section.gallery nav{
         display: grid;
-        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-columns: 12.5%, 12.5%, 12.5%, 12.5%;
         grid-gap: .2em;
+    }
+    
+    section.gallery body{
+        font-family: Futura-PT;
+        line-height: 1.4em;
+        color: #000000;
+        background-color: #ddd;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.gallery image{
+        width: 100%
     }
     
     input{
