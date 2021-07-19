@@ -165,7 +165,6 @@ ul {
         grid-column: 2/3;
     }
     div.gallery{
-    background-color: #fafafa;
     max-width: 60em;
     margin: 0 auto;
     padding: 1em;
@@ -173,7 +172,7 @@ ul {
     section.gallery main{
         position: relative;
         overflow: hidden;
-        padding-bottom: calc(72% + 3em);
+        padding-bottom: calc(125% + 3em);
     }
     
     section.gallery figure{
@@ -185,10 +184,10 @@ ul {
     }
     
     section.gallery figcaption{
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 1em 0;
-    color: #888;
+    color: #4CC9F0;
     }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
@@ -198,7 +197,7 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
 input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8),{
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     opacity: 1;
         
 }
