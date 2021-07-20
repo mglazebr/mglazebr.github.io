@@ -123,11 +123,6 @@ aside{
         overflow: hidden;
         padding-bottom: calc(125% + 3em);
     }
-section.gallery h2{
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
     section.gallery figure{
     margin: 0;
     width: calc(100%-2em);
