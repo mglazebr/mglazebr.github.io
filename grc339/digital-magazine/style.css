@@ -123,7 +123,11 @@ aside{
         overflow: hidden;
         padding-bottom: calc(125% + 3em);
     }
-    
+section.h2{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
     section.gallery figure{
     margin: 0;
     width: calc(100%-2em);
@@ -135,7 +139,7 @@ aside{
     section.gallery figcaption{
     font-size: 1.5em;
     font-weight: bold;
-    margin: 1em 0;
+    margin: .2em 0 2em 0;
     color: #4CC9F0;
     }
 
@@ -154,10 +158,10 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-gap: .2em;
+        margin-top: 2em;
     }
-    
+     
     section.gallery input {
-        max-width: 2em;
         display: none;
     }
 @media screen and (min-width: 60em){
