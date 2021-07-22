@@ -118,11 +118,17 @@ aside{
     margin: 0 auto;
     padding: 1em;
     }
+
     section.gallery main{
         position: relative;
         overflow: hidden;
         padding-bottom: calc(125% + 3em);
     }
+section.h2{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
     section.gallery figure{
     margin: 0;
     width: calc(100%-2em);
@@ -134,7 +140,7 @@ aside{
     section.gallery figcaption{
     font-size: 1.5em;
     font-weight: bold;
-    margin: .2em 0 2em 0;
+    margin: .2em 0 2em .5em;
     color: #4CC9F0;
     }
 
@@ -159,6 +165,39 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     section.gallery input {
         display: none;
     }
+section.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 3 0 24em;
+	box-sizing: border-box;
+}
+
+section.personal-info ul li label {
+	flex: 1 0 8em;
+}
+section.type-of-sub ul {
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+section.type-of-sub ul li {
+	flex: 1 0 15em;
+    margin: 0 0 1em 0;
+	}
+section.personal-info, section.type-of-sub ul li{
+     font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
 @media screen and (min-width: 60em){
     div.container{
         display: grid;
