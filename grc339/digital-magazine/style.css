@@ -19,6 +19,9 @@ section{
 article{
     max-width:36em;
 }
+form section {
+    margin: 0 2em 2em 0;
+}
 
 figure {
     margin: 0;
